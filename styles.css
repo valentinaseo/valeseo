@@ -1,0 +1,119 @@
+@import url(./assets/fonts/ )
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+    /* background-color: rgb(255, 255, 255); */
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+}
+header {
+    background-color: #c0a2c8;
+    height: 90px;
+}
+/* ¿Por qué cuando pongo esto me subió las opciones del menú al header y no editó el logo como tal? */
+.logo {
+    float: left;
+    padding: 10px;
+  }
+.menu {
+    float: right;
+    margin: 24px;
+    margin-right: 200px;
+}
+.menu a {
+    color: white;
+    text-decoration:none;
+    padding: 15px;
+    font-size: 20px;
+    font-family: ;
+}
+.banner {
+    background-image: url(./assets/background-valeseo-byn.jpg);
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    margin-right: 80px;
+    margin-left: 80px;3
+}
+.title-complement {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 550px;
+    width: 50%;
+}
+h1 {
+   font-size: 50px;
+}
+.complementoh1 {
+    text-align:left;
+    margin-top: 10px;
+    font-style: italic;
+    font-size: 25px;
+}
+.firsth2 {
+    background-color: #c0a2c8;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+/* Estilos de las categorías */
+.cat {
+    padding: 20px;
+}
+.boton_categorias {
+    width: 80px;
+    height: 20px;
+    background-color: #fedd59;
+    border-radius: 20px;
+    font-size: 18px;
+    padding: 60px;
+    line-height: 18px;
+    text-align: center;
+    float: right;
+/* No entiendo para qué es este float si no se mueve para ningún lado aunque le ponga left o right o center */
+/* ¿Por qué no creamos estos botones como button en vez de divs? */
+}
+.boton_categorias:hover {
+    opacity: 0.6;
+}
+.boton_categorias a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    align-items: center;
+    /* padding: 5px 5px 5px 5px; Creo que este padding es innecesario me daña el estilo */
+}
+.tabla_categorias {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.trayectoria {
+    background-color: #fedd5938;
+    color: rgb(0, 0, 0);
+    padding: 20px 200px 20px 200px;
+    text-align: justify;
+}
+.trayectoria h2 {
+    /* padding: 10px; */
+    text-align: center;
+    font-size: 35px;
+}
+.trayectoria p {
+    font-size: 22px;
+}
+.img_trayectoria {
+    width: 50%;
+    display: flex;
+
+}
+.img_trayectoria img {
+    border-radius: 30px;
+}
